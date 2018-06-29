@@ -6,8 +6,9 @@
 #include "L006/use_solution006.h"
 #include "L007/use_solution007.h"
 #include "L009/use_solution009.h"
+#include "L010/use_solution010.h"
 
 int main()
 {
-    test009();
+    test010();
 }
