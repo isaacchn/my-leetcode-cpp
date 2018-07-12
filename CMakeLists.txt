@@ -52,6 +52,9 @@ set(SOURCE_FILES
         L019/use_solution019.h
         L020/solution020.cpp
         L020/solution020.h
-        L020/use_solution020.h)
+        L020/use_solution020.h
+        L021/solution021.cpp
+        L021/solution021.h
+        L021/use_solution021.h)
 
 add_executable(leetcode_refactor ${SOURCE_FILES})
