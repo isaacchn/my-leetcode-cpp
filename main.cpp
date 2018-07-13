@@ -15,8 +15,9 @@
 #include "L019/use_solution019.h"
 #include "L020/use_solution020.h"
 #include "L021/use_solution021.h"
+#include "L022/use_solution022.h"
 
 int main()
 {
-    test021();
+    test022();
 }
