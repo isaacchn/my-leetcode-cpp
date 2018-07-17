@@ -1,6 +1,6 @@
-#include "Solution024.h"
+#include "solution024.h"
 
-void Solution024::swapPairsHelper(ListNode024 *pre, ListNode024 *head)
+void solution024::swapPairsHelper(ListNode024 *pre, ListNode024 *head)
 {
     if (!head)
         pre->next = nullptr;
@@ -21,7 +21,7 @@ void Solution024::swapPairsHelper(ListNode024 *pre, ListNode024 *head)
     }
 }
 
-ListNode024 *Solution024::swapPairs(ListNode024 *head)
+ListNode024 *solution024::swapPairs(ListNode024 *head)
 {
     if (!head||!head->next) return head;
 

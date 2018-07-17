@@ -5,18 +5,10 @@
  * Output: 7 -> 0 -> 8
  * Explanation: 342 + 465 = 807.
  */
+#include "../common.h"
 
 #ifndef LEETCODE_REFACTOR_SOLUTION_H
 #define LEETCODE_REFACTOR_SOLUTION_H
-
-struct ListNode
-{
-    int val;
-    ListNode *next;
-
-    explicit ListNode(int x = 0) : val(x), next(nullptr)
-    {}
-};
 
 class Solution002
 {

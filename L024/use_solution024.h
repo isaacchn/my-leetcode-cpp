@@ -1,7 +1,7 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION024_H
 #define MY_LEETCODE_CPP_USE_SOLUTION024_H
 
-#include "Solution024.h"
+#include "solution024.h"
 
 void print(ListNode024 *p)
 {
@@ -25,7 +25,7 @@ void test024()
 
     ListNode024 *e = new ListNode024(100);
 
-    Solution024 solution;
+    solution024 solution;
     ListNode024 *p = solution.swapPairs(a);
 
     print(p);

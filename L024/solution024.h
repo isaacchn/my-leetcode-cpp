@@ -25,7 +25,7 @@ struct ListNode024
     {}
 };
 
-class Solution024
+class solution024
 {
 private:
     void swapPairsHelper(ListNode024 *pre, ListNode024 *head);
