@@ -8,4 +8,12 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
-#endif //MY_LEETCODE_CPP_COMMON_H
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+};
+
+#endif
