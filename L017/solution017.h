@@ -21,8 +21,7 @@ using std::stoi;
 #define MY_LEETCODE_CPP_SOLUTION017_H
 
 
-class Solution017
-{
+class Solution017 {
 public:
     vector<string> letterCombinations(string digits);
 };

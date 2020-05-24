@@ -3,8 +3,7 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION020_H
 #define MY_LEETCODE_CPP_USE_SOLUTION020_H
 
-void test020()
-{
+void test020() {
     Solution020 solution;
     string s1 = "{[(())()(){[]}]}";
     cout << solution.isValid(s1) << endl;

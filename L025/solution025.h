@@ -19,8 +19,7 @@ using std::endl;
 #ifndef MY_LEETCODE_CPP_SOLUTION025_H
 #define MY_LEETCODE_CPP_SOLUTION025_H
 
-class Solution025
-{
+class Solution025 {
 public:
     /**
      * 倒序链表前k个元素

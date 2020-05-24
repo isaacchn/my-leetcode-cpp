@@ -14,8 +14,7 @@ using std::endl;
 #define MY_LEETCODE_CPP_SOLUTION011_H
 
 
-class Solution011
-{
+class Solution011 {
 public:
     int maxArea(vector<int> &height);
 

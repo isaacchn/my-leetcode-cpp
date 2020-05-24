@@ -3,19 +3,16 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION025_H
 #define MY_LEETCODE_CPP_USE_SOLUTION025_H
 
-void testReverseList(ListNode *head, int k)
-{
+void testReverseList(ListNode *head, int k) {
     Solution025 solution;
     ListNode *p = solution.reverseList(head, k);
-    while (p)
-    {
+    while (p) {
         cout << p->val << " ";
         p = p->next;
     }
 }
 
-void test025()
-{
+void test025() {
     ListNode *a = new ListNode(1);
     ListNode *b = new ListNode(2);
     ListNode *c = new ListNode(3);
@@ -31,8 +28,7 @@ void test025()
 
     Solution025 solution;
     ListNode *p = solution.reverseKGroup(a, 3);
-    while (p)
-    {
+    while (p) {
         cout << p->val << " ";
         p = p->next;
     }

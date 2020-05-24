@@ -31,8 +31,7 @@ using std::string;
 #define LEETCODE_REFACTOR_SOLUTION007_H
 
 
-class Solution007
-{
+class Solution007 {
 public:
     int reverse(int x);
 };

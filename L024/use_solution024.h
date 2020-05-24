@@ -3,18 +3,15 @@
 
 #include "solution024.h"
 
-void print(ListNode024 *p)
-{
-    while (p)
-    {
+void print(ListNode024 *p) {
+    while (p) {
         cout << p->val << " ";
         p = p->next;
     }
     cout << endl;
 }
 
-void test024()
-{
+void test024() {
     ListNode024 *a = new ListNode024(1);
     ListNode024 *b = new ListNode024(2);
     ListNode024 *c = new ListNode024(3);

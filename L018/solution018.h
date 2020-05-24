@@ -15,8 +15,7 @@ using std::sort;
 #define MY_LEETCODE_CPP_SOLUTION018_H
 
 
-class Solution018
-{
+class Solution018 {
 public:
     vector<vector<int>> fourSum(vector<int> &nums, int target);
 };

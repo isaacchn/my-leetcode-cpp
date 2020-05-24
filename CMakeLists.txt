@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         main.cpp
+        common.h
         L001/solution001.h
         L001/solution001.cpp
         L001/use_solution001.h
@@ -64,6 +65,12 @@ set(SOURCE_FILES
         L023/use_solution023.h
         L024/solution024.cpp
         L024/solution024.h
-        L024/use_solution024.h L025/solution025.cpp L025/solution025.h L025/use_solution025.h common.h)
+        L024/use_solution024.h
+        L025/solution025.cpp
+        L025/solution025.h
+        L025/use_solution025.h
+        L070/solution070.h
+        L070/solution070.cpp
+        L070/use_solution070.h)
 
 add_executable(leetcode_refactor ${SOURCE_FILES})

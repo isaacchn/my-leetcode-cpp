@@ -13,8 +13,7 @@ using std::count;
 #define MY_LEETCODE_CPP_SOLUTION022_H
 
 
-class Solution022
-{
+class Solution022 {
 private:
     void generateHelper(string s, int n, vector<string> &result);
 

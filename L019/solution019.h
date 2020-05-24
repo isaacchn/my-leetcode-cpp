@@ -16,17 +16,14 @@ using std::endl;
 #define MY_LEETCODE_CPP_SOLUTION019_H
 
 
-struct ListNode019
-{
+struct ListNode019 {
     int val;
     ListNode019 *next;
 
-    explicit ListNode019(int x) : val(x), next(nullptr)
-    {}
+    explicit ListNode019(int x) : val(x), next(nullptr) {}
 };
 
-class Solution019
-{
+class Solution019 {
 public:
     ListNode019 *removeNthFromEnd(ListNode019 *head, int n);
 };

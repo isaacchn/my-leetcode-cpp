@@ -1,24 +1,20 @@
 #include "solution019.h"
 
-ListNode019 *Solution019::removeNthFromEnd(ListNode019 *head, int n)
-{
+ListNode019 *Solution019::removeNthFromEnd(ListNode019 *head, int n) {
     if (!head) return nullptr;
     ListNode019 *n_before = head;
     ListNode019 *current = head;
-    while (n > 0)
-    {
+    while (n > 0) {
         current = current->next;
         n--;
     }
-    if (!current)
-    {
+    if (!current) {
         ListNode019 *temp = head;
         head = head->next;
         delete temp;
         return head;
     }
-    while (current->next)
-    {
+    while (current->next) {
         n_before = n_before->next;
         current = current->next;
     }

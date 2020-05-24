@@ -1,4 +1,3 @@
-#include <iostream>
 #include "L002/use_solution002.h"
 #include "L003/use_solution003.h"
 #include "L004/use_solution004.h"
@@ -19,8 +18,8 @@
 #include "L023/use_solution023.h"
 #include "L024/use_solution024.h"
 #include "L025/use_solution025.h"
+#include "L070/use_solution070.h"
 
-int main()
-{
-    test025();
+int main() {
+    test070();
 }

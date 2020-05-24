@@ -23,8 +23,7 @@ using std::sort;
 #define MY_LEETCODE_CPP_SOLUTION015_H
 
 
-class Solution015
-{
+class Solution015 {
 public:
     vector<vector<int>> threeSum(vector<int> &nums);
 };

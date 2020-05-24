@@ -16,17 +16,14 @@ using std::endl;
 #define MY_LEETCODE_CPP_SOLUTION024_H
 
 
-struct ListNode024
-{
+struct ListNode024 {
     int val;
     ListNode024 *next;
 
-    explicit ListNode024(int x) : val(x), next(nullptr)
-    {}
+    explicit ListNode024(int x) : val(x), next(nullptr) {}
 };
 
-class solution024
-{
+class solution024 {
 private:
     void swapPairsHelper(ListNode024 *pre, ListNode024 *head);
 

@@ -3,8 +3,7 @@
 #ifndef LEETCODE_REFACTOR_USE_SOLUTION004_H
 #define LEETCODE_REFACTOR_USE_SOLUTION004_H
 
-void test004()
-{
+void test004() {
     Solution004 s;
     vector<int> m1({1});
     vector<int> n1({1});

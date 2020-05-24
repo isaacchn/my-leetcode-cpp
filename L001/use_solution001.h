@@ -4,17 +4,14 @@
 #define LEETCODE_REFACTOR_USE_SOLUTION_H
 
 template<typename T>
-void print_v(vector<T> v)
-{
-    for (auto iter = v.cbegin(); iter != v.cend(); iter++)
-    {
+void print_v(vector<T> v) {
+    for (auto iter = v.cbegin(); iter != v.cend(); iter++) {
         cout << *iter << " ";
     }
     cout << endl;
 }
 
-void test001()
-{
+void test001() {
     Solution001 s;
     vector<int> v{0, 4, 3, 0};
     int target = 0;

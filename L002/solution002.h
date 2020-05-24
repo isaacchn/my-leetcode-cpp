@@ -10,8 +10,7 @@
 #ifndef LEETCODE_REFACTOR_SOLUTION_H
 #define LEETCODE_REFACTOR_SOLUTION_H
 
-class Solution002
-{
+class Solution002 {
 public:
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2);
 };

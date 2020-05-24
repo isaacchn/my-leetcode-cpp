@@ -23,8 +23,7 @@ using std::string;
 #define LEETCODE_REFACTOR_SOLUTION005_H
 
 
-class Solution005
-{
+class Solution005 {
 public:
     string longestPalindrome(const string &s);
 };

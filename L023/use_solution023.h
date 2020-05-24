@@ -3,8 +3,7 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION023_H
 #define MY_LEETCODE_CPP_USE_SOLUTION023_H
 
-void test023()
-{
+void test023() {
     ListNode023 *p3 = new ListNode023(5);
     ListNode023 *p2 = new ListNode023(4, p3);
     ListNode023 *p1 = new ListNode023(1, p2);
@@ -23,8 +22,7 @@ void test023()
     vector<ListNode023 *> lists{p9};
 
     ListNode023 *result = solution.mergeKLists(lists);
-    while (result)
-    {
+    while (result) {
         cout << result->val << " ";
         result = result->next;
     }

@@ -26,8 +26,7 @@ using std::string;
 #ifndef LEETCODE_REFACTOR_SOLUTION009_H
 #define LEETCODE_REFACTOR_SOLUTION009_H
 
-class Solution009
-{
+class Solution009 {
 private:
     int reverse(int x);
 

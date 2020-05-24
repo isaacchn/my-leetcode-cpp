@@ -22,8 +22,7 @@ using std::endl;
 #define LEETCODE_REFACTOR_SOLUTION004_H
 
 
-class Solution004
-{
+class Solution004 {
 private:
     int min(int a, int b);
 

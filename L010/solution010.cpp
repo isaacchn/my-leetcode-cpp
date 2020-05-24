@@ -5,17 +5,14 @@
  * @param s 源字符串
  * @param p 正则表达式
  */
-bool Solution010::isMatch(string s, string p)
-{
+bool Solution010::isMatch(string s, string p) {
     bool result;
     if (p.empty()) result = s.empty();//pattern为空
 
-    else
-    {
+    else {
         /*判断首字符是否match*/
         bool first_match = (p[0] == s[0] || p[0] == '.') && !s.empty();
-        if (p.length() >= 2 && p[1] == '*')
-        {
+        if (p.length() >= 2 && p[1] == '*') {
             /**
              * 如果正则表达式以"char*"的样式开头
              * 1.源字符串与去掉"char*"的正则表达式match
@@ -24,8 +21,7 @@ bool Solution010::isMatch(string s, string p)
              */
             result = (isMatch(s, p.substr(2))
                       || (first_match && isMatch(s.substr(1), p)));
-        } else
-        {
+        } else {
             /**
              * 如果如果正则表达式以"char"的样式开头，char后面没有'*'：
              * 1.源字符串首字符与正则表达式首字符相同

@@ -17,8 +17,7 @@ using std::string;
 
 #define uint unsigned int
 
-class Solution001
-{
+class Solution001 {
 public:
     vector<int> twoSum(vector<int> &nums, int target);
 };

@@ -1,32 +1,26 @@
 #include "solution023.h"
 
-ListNode023 *Solution023::mergeKLists1(vector<ListNode023 *> &lists)
-{
+ListNode023 *Solution023::mergeKLists1(vector<ListNode023 *> &lists) {
     if (lists.size() == 0) return nullptr;
 
     ListNode023 *head = new ListNode023(0);
     ListNode023 *p_head = head;
 
-    while (lists.size() > 0)
-    {
+    while (lists.size() > 0) {
         vector<ListNode023 *>::iterator it = lists.begin();
-        while (it < lists.end())
-        {
+        while (it < lists.end()) {
             if (!*it)
                 it = lists.erase(it);
             else
                 it++;
         }
 
-        if (lists.size() > 0)
-        {
+        if (lists.size() > 0) {
             int min = INT_MAX;
             auto min_it = lists.begin();
             it = lists.begin();
-            while (it < lists.end())
-            {
-                if ((*it)->val < min)
-                {
+            while (it < lists.end()) {
+                if ((*it)->val < min) {
                     min = (*it)->val;
                     min_it = it;
                 }
@@ -43,8 +37,7 @@ ListNode023 *Solution023::mergeKLists1(vector<ListNode023 *> &lists)
     return p_head->next;
 }
 
-ListNode023 *Solution023::mergeKLists(vector<ListNode023 *> &lists)
-{
+ListNode023 *Solution023::mergeKLists(vector<ListNode023 *> &lists) {
     if (lists.size() == 0) return nullptr;
     ListNode023 *head = new ListNode023(0);
     ListNode023 *p_head = head;
@@ -52,18 +45,14 @@ ListNode023 *Solution023::mergeKLists(vector<ListNode023 *> &lists)
     bool finish = false;
     vector<ListNode023 *>::iterator min_it = lists.begin();
 
-    while (!finish)
-    {
+    while (!finish) {
         int min = INT_MAX;
         finish = true;
         vector<ListNode023 *>::iterator it = lists.begin();
-        while (it < lists.end())
-        {
-            if (*it)
-            {
-                finish = false;//ÓÐ·Ç¿ÕÁ´±í
-                if ((*it)->val < min)
-                {
+        while (it < lists.end()) {
+            if (*it) {
+                finish = false;//ï¿½Ð·Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½
+                if ((*it)->val < min) {
                     min = (*it)->val;
                     min_it = it;
                 }
@@ -71,8 +60,7 @@ ListNode023 *Solution023::mergeKLists(vector<ListNode023 *> &lists)
             it++;
         }
 
-        if (!finish)
-        {
+        if (!finish) {
             head->next = new ListNode023(min);
             head = head->next;
             *min_it = (*min_it)->next;

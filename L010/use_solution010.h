@@ -3,8 +3,7 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION010_H
 #define MY_LEETCODE_CPP_USE_SOLUTION010_H
 
-void test010()
-{
+void test010() {
     Solution010 solution;
     string t1 = "csaaaab";
     string p1 = "e*.*a*..b";

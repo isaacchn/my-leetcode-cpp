@@ -13,17 +13,14 @@ using std::endl;
 #ifndef MY_LEETCODE_CPP_SOLUTION021_H
 #define MY_LEETCODE_CPP_SOLUTION021_H
 
-struct ListNode021
-{
+struct ListNode021 {
     int val;
     ListNode021 *next;
 
-    ListNode021(int x) : val(x), next(nullptr)
-    {}
+    ListNode021(int x) : val(x), next(nullptr) {}
 };
 
-class Solution021
-{
+class Solution021 {
 public:
     ListNode021 *mergeTwoLists(ListNode021 *l1, ListNode021 *l2);
 };

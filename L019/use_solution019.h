@@ -3,8 +3,7 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION019_H
 #define MY_LEETCODE_CPP_USE_SOLUTION019_H
 
-void test019()
-{
+void test019() {
     ListNode019 n5(5);
     ListNode019 n4(4);
     ListNode019 n3(3);
@@ -17,8 +16,7 @@ void test019()
     n4.next = &n5;
 
     ListNode019 *head = &n1;
-    while (head)
-    {
+    while (head) {
         cout << head->val << " ";
         head = head->next;
     }
@@ -27,8 +25,7 @@ void test019()
     Solution019 solution;
     head = &n1;
     head = solution.removeNthFromEnd(head, 2);
-    while (head)
-    {
+    while (head) {
         cout << head->val << " ";
         head = head->next;
     }

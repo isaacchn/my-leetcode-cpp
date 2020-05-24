@@ -3,8 +3,7 @@
 #ifndef MY_LEETCODE_CPP_USE_SOLUTION021_H
 #define MY_LEETCODE_CPP_USE_SOLUTION021_H
 
-void test021()
-{
+void test021() {
     ListNode021 l1(1);
     ListNode021 l2(5);
     ListNode021 l3(7);
@@ -21,8 +20,7 @@ void test021()
     Solution021 solution;
     ListNode021 *result = solution.mergeTwoLists(&l1, &r1);
 
-    while (result)
-    {
+    while (result) {
         cout << result->val << " ";
         result = result->next;
     }

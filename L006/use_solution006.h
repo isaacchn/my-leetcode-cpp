@@ -3,8 +3,7 @@
 #ifndef LEETCODE_REFACTOR_USE_SOLUTION006_H
 #define LEETCODE_REFACTOR_USE_SOLUTION006_H
 
-void test006()
-{
+void test006() {
     Solution006 s;
     string s1 = "abcdef";
     cout << s.convert(s1, 1) << endl;

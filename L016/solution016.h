@@ -20,8 +20,7 @@ using std::abs;
 #define MY_LEETCODE_CPP_SOLUTION016_H
 
 
-class Solution016
-{
+class Solution016 {
 public:
     int threeSumClosest(vector<int> &nums, int target);
 };

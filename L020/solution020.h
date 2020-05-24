@@ -19,8 +19,7 @@ using std::endl;
 #define MY_LEETCODE_CPP_SOLUTION020_H
 
 
-class Solution020
-{
+class Solution020 {
 public:
     bool isValid(string s);
 };

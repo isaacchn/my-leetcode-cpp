@@ -18,8 +18,7 @@ using std::cout;
 #define LEETCODE_REFACTOR_SOLUTION003_H
 
 
-class Solution003
-{
+class Solution003 {
 public:
     int lengthOfLongestSubstring(string s);
 };

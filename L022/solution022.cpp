@@ -12,15 +12,13 @@
 
 #include "solution022.h"
 
-void Solution022::generateHelper(string s, int n, vector<string> &result)
-{
+void Solution022::generateHelper(string s, int n, vector<string> &result) {
     int l = count(s.begin(), s.end(), '(');
     int r = count(s.begin(), s.end(), ')');
 
     if (l < r || l > n || r > n) return;
 
-    if (s.length() == n * 2)
-    {
+    if (s.length() == n * 2) {
         result.push_back(s);
         return;
     }
@@ -31,8 +29,7 @@ void Solution022::generateHelper(string s, int n, vector<string> &result)
     generateHelper(s2, n, result);
 }
 
-vector<string> Solution022::generateParenthesis(int n)
-{
+vector<string> Solution022::generateParenthesis(int n) {
     vector<string> result;
     if (n == 0) return result;
     generateHelper("(", n, result);

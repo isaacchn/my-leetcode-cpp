@@ -35,8 +35,7 @@ using std::string;
 #define LEETCODE_REFACTOR_SOLUTION006_H
 
 
-class Solution006
-{
+class Solution006 {
 public:
     string convert(string s, unsigned int numRows);
 };
