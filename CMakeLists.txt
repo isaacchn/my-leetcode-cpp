@@ -71,6 +71,6 @@ set(SOURCE_FILES
         L025/use_solution025.h
         L070/solution070.h
         L070/solution070.cpp
-        L070/use_solution070.h L144/solution144.cpp L144/solution144.h L144/use_solution144.h L026/solution026.cpp L026/solution026.h L026/use_solution026.h)
+        L070/use_solution070.h L144/solution144.cpp L144/solution144.h L144/use_solution144.h L026/solution026.cpp L026/solution026.h L026/use_solution026.h L589/solution589.h L589/use_solution589.h)
 
 add_executable(leetcode_refactor ${SOURCE_FILES})

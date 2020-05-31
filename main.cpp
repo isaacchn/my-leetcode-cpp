@@ -21,7 +21,8 @@
 #include "L026/use_solution026.h"
 #include "L070/use_solution070.h"
 #include "L144/use_solution144.h"
+#include "L589/use_solution589.h"
 
 int main() {
-    test026();
+    test589();
 }
